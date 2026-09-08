@@ -5,15 +5,14 @@
 ### 1. 📝 README 更新
 - ✅ 添加 ICML 2026 链接（https://icml.cc/virtual/2026/76614）
 - ✅ 添加 concept.pdf 图片展示
-- ✅ 集成所有 17 个视频对比 GIF
+- ✅ 集成 13 个视频对比 GIF
 - ✅ Hugging Face 风格：轻松、友好、图标丰富
 - ✅ 两大特性完整展示
 
 ### 2. 🎬 GIF 生成
-- ✅ 17 个高质量对比 GIF（~12 FPS，60帧）
-- ✅ Category A (细节真实感): 8 个 GIF
-- ✅ Category B (物理合理性): 9 个 GIF
-- ✅ 总大小: 119 MB
+- ✅ 13 个高质量对比 GIF（~12 FPS，60帧）
+- ✅ Category A (细节真实感): 7 个 GIF
+- ✅ Category B (物理合理性): 6 个 GIF
 
 ### 3. 🧹 项目清理
 - ✅ 删除测试视频 (test_output.mp4, inference_test.mp4)
@@ -45,20 +44,16 @@ TST_Github/                          # 准备推送到 GitHub
 ├── 🚀 inference.py                  # CLI 工具（7.2 KB）
 ├── 📖 example.py                    # 示例脚本（1.7 KB）
 │
-└── 🎨 assets/                       # 媒体资源（120 MB）
+└── 🎨 assets/                       # 媒体资源
     ├── concept.pdf                 # 方法概念图（1.2 MB）
-    └── gifs/                       # 17 个对比 GIF（119 MB）
+    └── gifs/                       # 13 个对比 GIF
         ├── sample-01_comparison.gif   # Baker
         ├── sample-02_comparison.gif   # Dog
-        ├── sample-03_comparison.gif   # Diver
-        ├── sample-04_comparison.gif   # Dancer
-        ├── sample-05_comparison.gif   # Phoenix
         ├── sample-06_comparison.gif   # Beach
         ├── sample-07_comparison.gif   # Dragon
         ├── sample-08_comparison.gif   # Climber
         ├── sample-09_comparison.gif   # Robot
         ├── sample-10_comparison.gif   # Hologram
-        ├── sample-11_comparison.gif   # Turtle
         ├── sample-12_comparison.gif   # Space probe
         ├── sample-13_comparison.gif   # Bird
         ├── sample-14_comparison.gif   # Skater
@@ -67,14 +62,12 @@ TST_Github/                          # 准备推送到 GitHub
         └── sample-17_comparison.gif   # Swordsman
 ```
 
-**总大小**: ~120 MB（主要是 GIF）
-
 ---
 
 ## 🎯 核心特性
 
 ### README 亮点
-1. **完整视频展示**: 17 个 GIF 直接嵌入
+1. **完整视频展示**: 13 个 GIF 直接嵌入
 2. **ICML 2026 链接**: 会议主页优先展示
 3. **方法概念图**: concept.pdf 展示算法思路
 4. **Hugging Face 风格**: 轻松友好，大量 emoji
@@ -106,7 +99,7 @@ git commit -m "Initial commit: TST - Temporal State Transport for Video Generati
 
 - Core TST algorithm implementation
 - Wan2.2 model integration
-- 17 comparison GIFs showcasing improvements
+- 13 comparison GIFs showcasing improvements
 - Complete documentation and examples
 - Ready for ICML 2026"
 
@@ -132,7 +125,7 @@ git pull origin main --allow-unrelated-histories
 git add .
 
 # 提交
-git commit -m "Add complete TST implementation with 17 comparison GIFs"
+git commit -m "Add complete TST implementation with comparison GIFs"
 
 # 推送
 git push origin main
@@ -143,7 +136,7 @@ git push origin main
 ## 📊 文件清单
 
 ### 保留的文件（推送到 GitHub）
-- ✅ `README.md` - 主文档，包含 17 个 GIF
+- ✅ `README.md` - 主文档，包含 13 个 GIF
 - ✅ `QUICKSTART.md` - 快速入门
 - ✅ `LICENSE` - MIT 许可证
 - ✅ `requirements.txt` - 依赖列表
@@ -151,7 +144,7 @@ git push origin main
 - ✅ `example.py` - Python API 示例
 - ✅ `tst/` - 核心模块（4 个文件）
 - ✅ `assets/concept.pdf` - 方法概念图
-- ✅ `assets/gifs/` - 17 个对比 GIF
+- ✅ `assets/gifs/` - 13 个对比 GIF
 
 ### 删除的文件（不推送）
 - ❌ `test_output.mp4` - 测试视频
@@ -185,7 +178,7 @@ rm assets/concept.pdf
 - 文件大小只有 1.2 MB，可接受
 
 ### 2. GitHub 仓库大小
-- 总大小约 120 MB（主要是 GIF）
+- 仓库主要空间由 GIF 示例占用
 - GitHub 单仓库推荐 < 1 GB
 - 单文件推荐 < 100 MB
 - ✅ 所有 GIF 都 < 10 MB，符合要求
@@ -204,7 +197,7 @@ git add .gitattributes
 
 - ✅ README 包含 ICML 2026 链接
 - ✅ README 包含 concept 图片
-- ✅ README 展示所有 17 个 GIF
+- ✅ README 展示 13 个 GIF
 - ✅ 代码干净，无测试文件
 - ✅ 无个人信息
 - ✅ 无 EAV 字眼

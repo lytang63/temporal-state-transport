@@ -89,13 +89,6 @@ TST helps preserve fine details and realistic appearance that stay convincing ov
 
 ---
 
-#### 🐢 Sea Turtle Swimming
-*Underwater caustics, coral details, and fish movements stay physically plausible*
-
-<img src="assets/gifs/sample-11_comparison.gif" width="90%">
-
----
-
 #### 🛸 Space Probe Flyby
 *Planetary rings, engine glow, and glittering debris maintain consistency*
 
@@ -149,27 +142,6 @@ TST corrects temporal attention to restore coherent physical behavior and realis
 *Body articulation and motion trajectory become more natural and physically grounded*
 
 <img src="assets/gifs/sample-02_comparison.gif" width="90%">
-
----
-
-#### 🏊 Competitive Diver
-*Diving rotation, body posture, and water splash dynamics follow realistic physics*
-
-<img src="assets/gifs/sample-03_comparison.gif" width="90%">
-
----
-
-#### 💃 Contemporary Dancer with Confetti
-*Body movement, confetti fall, and spotlight tracking become coherent*
-
-<img src="assets/gifs/sample-04_comparison.gif" width="90%">
-
----
-
-#### 🔥 Phoenix Above Volcano
-*Wing movement, ash particles, and magical effects maintain coherent motion logic*
-
-<img src="assets/gifs/sample-05_comparison.gif" width="90%">
 
 ---
 
@@ -392,7 +364,7 @@ TST/
 ├── 📖 example.py              # Quick start example
 ├── 📋 requirements.txt        # Dependencies
 ├── 📚 README.md               # This file
-├── 🎥 assets/gifs/            # 17 comparison GIFs (119 MB)
+├── 🎥 assets/gifs/            # 13 comparison GIFs
 └── 🧪 test_tst.py             # Test script
 ```
 
