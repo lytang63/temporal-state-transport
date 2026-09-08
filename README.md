@@ -2,14 +2,20 @@
 
 <div align="center">
 
-### *Making video generation more coherent, one attention state at a time* ✨
+### *Diagnose temporal attention first—then transport it back to balance.* ✨
 
-[![Project Page](https://img.shields.io/badge/🌐_Project-Page-blue?style=flat-square)](https://temporal-state-transport.github.io/)
-[![ICML 2026](https://img.shields.io/badge/📄_ICML-2026-red?style=flat-square)](https://icml.cc/virtual/2026/76614)
-[![Paper](https://img.shields.io/badge/📄_Paper-arXiv-orange?style=flat-square)](https://arxiv.org)
+[![Best Paper Award](https://img.shields.io/badge/Best_Paper_Award-ICML_2026_F2S-D4AF37?style=for-the-badge)](https://openreview.net/forum?id=YIqjb9fi7o)
+[![Oral Presentation](https://img.shields.io/badge/Oral_Presentation-ICML_2026_F2S-2F6FEB?style=for-the-badge)](https://openreview.net/forum?id=YIqjb9fi7o)
+
+🏆 **Best Paper Award** · 🎤 **Oral Presentation**<br>
+**ICML 2026 Workshop on From Frames to Stories (F2S): Toward Reliable, Controllable and Trustworthy Long-Horizon Video Generation**
+
+[![ICML 2026](https://img.shields.io/badge/ICML-2026-red?style=flat-square)](https://icml.cc/virtual/2026/76614)
+[![Paper](https://img.shields.io/badge/Paper-OpenReview-orange?style=flat-square)](https://openreview.net/forum?id=YIqjb9fi7o)
+[![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square)](https://github.com/lytang63/temporal-state-transport)
 [![License](https://img.shields.io/badge/📜_License-MIT-green?style=flat-square)](LICENSE)
 
-[**Quick Start**](#-quick-start) • [**Installation**](#️-installation) • [**Examples**](#-two-superpowers-of-tst) • [**Paper**](https://arxiv.org)
+[**Quick Start**](#-quick-start) • [**Installation**](#️-installation) • [**Examples**](#-two-superpowers-of-tst) • [**Paper**](https://openreview.net/forum?id=YIqjb9fi7o)
 
 </div>
 
@@ -19,7 +25,21 @@
 
 Ever noticed how video generation models sometimes produce videos where objects **morph weirdly**, details **blur into chaos**, or motion just feels **off**? That's because temporal attention can get out of balance—either too fragmented or over-mixed.
 
-**TST** diagnoses and fixes this at inference time. No training, no fine-tuning, just better videos. 🎯
+**TST** diagnoses and corrects this imbalance directly at inference time. No training, no fine-tuning, and no model-weight updates—just a lightweight intervention that makes generated videos more coherent, detailed, and physically plausible. 🎯
+
+### 💡 Our Core Insight
+
+Temporal inconsistency is **not simply caused by insufficient cross-frame interaction**. Temporal attention can fail in two opposite regimes:
+
+- 🧩 **Fragmented transport** isolates frames, causing appearance and fine details to drift.
+- 🌪️ **Over-mixed transport** collapses temporal distinctions, leading to implausible motion and broken physical dynamics.
+
+Blindly strengthening temporal attention can therefore help one failure mode while worsening the other. TST instead follows a **diagnose-then-correct** principle:
+
+- 🔍 **Spectral Tension** identifies the direction and severity of temporal imbalance.
+- 🩺 **Spectral Transport Homeostasis** selectively restores unhealthy attention states toward a balanced regime.
+- ⚡ **Training-free and plug-and-play** integration improves existing video diffusion models at inference time.
+- 🎛️ **One principal control parameter** keeps deployment simple while layer- and timestep-aware schedules adapt the correction automatically.
 
 <div align="center">
 <img src="assets/concept.jpg" alt="TST Method Overview" width="95%">
@@ -226,8 +246,8 @@ Traditional methods just strengthen cross-frame attention blindly. TST is smarte
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/TST.git
-cd TST
+git clone https://github.com/lytang63/temporal-state-transport.git
+cd temporal-state-transport
 
 # Install dependencies
 pip install -r requirements.txt
@@ -402,11 +422,12 @@ TST adds minimal overhead:
 If TST helps your research or project, please cite:
 
 ```bibtex
-@article{tst2025,
+@inproceedings{anonymous2026temporal,
   title={Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance},
-  author={[Authors]},
-  journal={[Venue]},
-  year={2025}
+  author={Anonymous},
+  booktitle={ICML 2026 Workshop - From Frames to Stories (F2S): Toward Reliable, Controllable and Trustworthy Long-Horizon Video Generation},
+  year={2026},
+  url={https://openreview.net/forum?id=YIqjb9fi7o}
 }
 ```
 
@@ -433,11 +454,11 @@ Built with love using:
 
 | I want to... | Where to go |
 |:-------------|:------------|
-| 🐛 Report a bug | [Open an issue](https://github.com/YOUR_USERNAME/TST/issues) |
-| 💡 Suggest a feature | [Start a discussion](https://github.com/YOUR_USERNAME/TST/discussions) |
-| 🎥 See more examples | [Visit project page](https://temporal-state-transport.github.io/) |
-| 📚 Read the paper | [arXiv link](https://arxiv.org) |
-| 💬 Chat with us | [Discussions](https://github.com/YOUR_USERNAME/TST/discussions) |
+| 🐛 Report a bug | [Open an issue](https://github.com/lytang63/temporal-state-transport/issues) |
+| 💡 Suggest a feature | [Start a discussion](https://github.com/lytang63/temporal-state-transport/discussions) |
+| 🎥 See more examples | [Browse the comparisons](#-two-superpowers-of-tst) |
+| 📚 Read the paper | [OpenReview](https://openreview.net/forum?id=YIqjb9fi7o) |
+| 💬 Chat with us | [Discussions](https://github.com/lytang63/temporal-state-transport/discussions) |
 
 </div>
 
