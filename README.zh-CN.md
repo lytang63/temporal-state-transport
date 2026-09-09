@@ -13,12 +13,13 @@
 **ICML 2026 Workshop on From Frames to Stories (F2S): Toward Reliable, Controllable and Trustworthy Long-Horizon Video Generation**
 
 [![ICML 2026](https://img.shields.io/badge/ICML-2026-red?style=flat-square)](https://icml.cc/virtual/2026/76614)
+[![项目主页](https://img.shields.io/badge/Project_Page-TST-5B6CFF?style=flat-square)](https://temporal-state-transport.github.io/)
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-orange?style=flat-square)](https://openreview.net/forum?id=YIqjb9fi7o)
 [![arXiv](https://img.shields.io/badge/arXiv-2609.08505-b31b1b?style=flat-square)](https://arxiv.org/abs/2609.08505)
 [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square)](https://github.com/lytang63/temporal-state-transport)
 [![License](https://img.shields.io/badge/📜_License-MIT-green?style=flat-square)](LICENSE)
 
-[**快速开始**](#-快速开始) · [**安装**](#️-安装) · [**示例**](#-tst-的两项核心能力) · [**论文**](https://openreview.net/forum?id=YIqjb9fi7o) · [**arXiv**](https://arxiv.org/abs/2609.08505)
+[**项目主页**](https://temporal-state-transport.github.io/) · [**快速开始**](#-快速开始) · [**安装**](#️-安装) · [**示例**](#-tst-的两项核心能力) · [**论文**](https://openreview.net/forum?id=YIqjb9fi7o) · [**arXiv**](https://arxiv.org/abs/2609.08505)
 
 </div>
 
