@@ -2,6 +2,8 @@
 
 <div align="center">
 
+[English](README.md) · [中文](README.zh-CN.md)
+
 ### *Diagnose temporal attention first—then transport it back to balance.* ✨
 
 [![Best Paper Award](https://img.shields.io/badge/Best_Paper_Award-ICML_2026_F2S-D4AF37?style=for-the-badge)](https://openreview.net/forum?id=YIqjb9fi7o)
@@ -12,10 +14,11 @@
 
 [![ICML 2026](https://img.shields.io/badge/ICML-2026-red?style=flat-square)](https://icml.cc/virtual/2026/76614)
 [![Paper](https://img.shields.io/badge/Paper-OpenReview-orange?style=flat-square)](https://openreview.net/forum?id=YIqjb9fi7o)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.08505-b31b1b?style=flat-square)](https://arxiv.org/abs/2609.08505)
 [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square)](https://github.com/lytang63/temporal-state-transport)
 [![License](https://img.shields.io/badge/📜_License-MIT-green?style=flat-square)](LICENSE)
 
-[**Quick Start**](#-quick-start) • [**Installation**](#️-installation) • [**Examples**](#-two-superpowers-of-tst) • [**Paper**](https://openreview.net/forum?id=YIqjb9fi7o)
+[**Quick Start**](#-quick-start) • [**Installation**](#️-installation) • [**Examples**](#-two-superpowers-of-tst) • [**Paper**](https://openreview.net/forum?id=YIqjb9fi7o) • [**arXiv**](https://arxiv.org/abs/2609.08505)
 
 </div>
 
@@ -394,12 +397,14 @@ TST adds minimal overhead:
 If TST helps your research or project, please cite:
 
 ```bibtex
-@inproceedings{anonymous2026temporal,
+@misc{tang2026temporalstatetransportvideo,
   title={Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance},
-  author={Anonymous},
-  booktitle={ICML 2026 Workshop - From Frames to Stories (F2S): Toward Reliable, Controllable and Trustworthy Long-Horizon Video Generation},
+  author={Luyao Tang and Bingjun Luo and Dong Yi and Jialin Guo and Haoning Xi and Cheng Chen and Yizhou Yu and Chaoqi Chen},
   year={2026},
-  url={https://openreview.net/forum?id=YIqjb9fi7o}
+  eprint={2609.08505},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2609.08505},
 }
 ```
 
@@ -429,7 +434,7 @@ Built with love using:
 | 🐛 Report a bug | [Open an issue](https://github.com/lytang63/temporal-state-transport/issues) |
 | 💡 Suggest a feature | [Start a discussion](https://github.com/lytang63/temporal-state-transport/discussions) |
 | 🎥 See more examples | [Browse the comparisons](#-two-superpowers-of-tst) |
-| 📚 Read the paper | [OpenReview](https://openreview.net/forum?id=YIqjb9fi7o) |
+| 📚 Read the paper | [OpenReview](https://openreview.net/forum?id=YIqjb9fi7o) · [arXiv](https://arxiv.org/abs/2609.08505) |
 | 💬 Chat with us | [Discussions](https://github.com/lytang63/temporal-state-transport/discussions) |
 
 </div>
